@@ -1,0 +1,6 @@
+git lfs install
+git lfs track "*.csv"
+git add .gitattributes
+git add <your-large-file>.csv
+git commit -m "Add large CSV file with Git LFS"
+git push origin main
